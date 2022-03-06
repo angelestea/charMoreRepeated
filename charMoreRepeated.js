@@ -1,5 +1,5 @@
 /*
-The objective is save the letter that exist more in whichever string, so the focus must be in the object json times, because you can save element with value in this ones.
+The objective is save the letter that exist more in whichever string, so the focus must be in the object json times, because you can save element with value in these ones.
 
 Enjoy!
 */
