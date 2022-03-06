@@ -18,14 +18,6 @@ function moreUsedChar(word){
         }
         
     }
-    // for(veces of times){
-    //     let aux;
-    //     if(veces>times[letter+1]){
-    //         aux=times[letter+1];
-    //         veces=times[letter+1]
-
-    //     }
-    // }
     for(let letra in times){
 
         if(times[letra]>maximo_repeticiones){
@@ -37,4 +29,4 @@ function moreUsedChar(word){
     return letra_mas_repetida; 
 }
 
-console.log("The letter than exist more in this string is: '"+moreUsedChar("sal om  un sal om on ho la  si ud  bas ids  ba sdu o ad")+"'");
+console.log("Letter that exist more in this string is: '"+moreUsedChar("sal om  un sal om on ho la  si ud  bas ids  ba sdu o ad")+"'");
