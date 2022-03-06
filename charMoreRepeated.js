@@ -1,3 +1,8 @@
+/*
+The objective is save the letter that exist more in whichever string, so the focus must be in the object json times, because you can save element with value in this ones.
+
+Enjoy!
+*/
 function moreUsedChar(word){
     
     let times={};
@@ -28,9 +33,7 @@ function moreUsedChar(word){
             letra_mas_repetida=letra;
         }
     }
-
-    console.log(maximo_repeticiones, letra_mas_repetida);
+    return letra_mas_repetida; 
 }
 
-moreUsedChar("salomunsalomon")
-// console.log("The letter than exists more times in this word is: "+moreUsedChar("Salomon.salo"))
+console.log("The letter than exist more in this string is: "+moreUsedChar("salomunsalomon"));
